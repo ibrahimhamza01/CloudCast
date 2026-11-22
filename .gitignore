@@ -1,0 +1,11 @@
+.venv/
+.uv-cache/
+__pycache__/
+*.py[cod]
+
+# Raw and generated data are reproducible but too large for source control.
+data/raw/*.csv
+data/processed/*.csv
+outputs/
+report/
+

@@ -1,0 +1,31 @@
+{
+  "description": "Azure LLM code and conversation traces aggregated to one-minute UTC intervals",
+  "code_trace": {
+    "file": "C:\\Users\\ibrah\\GWU\\3. Fall 2026\\Time Series Analysis & Modeling\\CloudCast\\data\\raw\\AzureLLMInferenceTrace_code_1week.csv",
+    "file_size_bytes": 691989454,
+    "raw_request_rows": 16803695,
+    "first_timestamp": "2024-05-10 00:00:00.009930+00:00",
+    "last_timestamp": "2024-05-16 23:59:59.929501+00:00",
+    "one_minute_rows_before_intersection": 10080
+  },
+  "conversation_trace": {
+    "file": "C:\\Users\\ibrah\\GWU\\3. Fall 2026\\Time Series Analysis & Modeling\\CloudCast\\data\\raw\\AzureLLMInferenceTrace_conv_1week.csv",
+    "file_size_bytes": 1135195393,
+    "raw_request_rows": 27303999,
+    "first_timestamp": "2024-05-12 00:00:00.001163+00:00",
+    "last_timestamp": "2024-05-18 23:59:59.995460+00:00",
+    "one_minute_rows_before_intersection": 10080
+  },
+  "common_window_start": "2024-05-12 00:00:00+00:00",
+  "common_window_end": "2024-05-16 23:59:00+00:00",
+  "sampling_frequency": "1 minute",
+  "processed_rows": 7200,
+  "processed_numerical_columns": 10,
+  "zero_request_minutes": {
+    "code": 0,
+    "conversation": 0,
+    "combined": 0
+  },
+  "output_file": "C:\\Users\\ibrah\\GWU\\3. Fall 2026\\Time Series Analysis & Modeling\\CloudCast\\data\\processed\\azure_llm_one_minute.csv",
+  "output_sha256": "8018a40df04aff02ce2e7c45b0d35a11e749d434032a2ab270e79edbe50547cd"
+}
